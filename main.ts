@@ -1,16 +1,15 @@
 //% color=#0fbc11 icon="\uf2db" block="DRV8871 Motor"
 namespace DRV8871Motor {
-
     /**
-     * Aktivér motordriveren (slår LED-display fra for at frigøre pins)
+     * Aktivér motordriveren
      */
-    //% block="Aktivér DRV8871 Driver (slå LED-display fra)"
+    //% block="Aktivér DRV8871 driver"
     export function init(): void {
         led.enable(false)
     }
 
     /**
-     * Motor A (P12 & P13) fremad
+     * Motor A fremad
      */
     //% block="Motor A fremad med speed %speed"
     //% speed.min=0 speed.max=1023
@@ -20,7 +19,7 @@ namespace DRV8871Motor {
     }
 
     /**
-     * Motor A (P12 & P13) baglæns
+     * Motor A baglæns
      */
     //% block="Motor A baglæns med speed %speed"
     //% speed.min=0 speed.max=1023
@@ -28,6 +27,7 @@ namespace DRV8871Motor {
         pins.digitalWritePin(DigitalPin.P12, 0)
         pins.analogWritePin(AnalogPin.P13, speed)
     }
+
 
     /**
      * Stop motor A
