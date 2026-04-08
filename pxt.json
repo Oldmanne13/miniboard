@@ -1,0 +1,20 @@
+{
+    "name": "miniboard",
+    "version": "0.0.1",
+    "description": "Motor driver til DRV8871",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.0"
+    }
+}
