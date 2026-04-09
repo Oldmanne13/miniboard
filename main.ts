@@ -28,7 +28,6 @@ namespace DRV8871Motor {
         pins.analogWritePin(AnalogPin.P13, speed)
     }
 
-
     /**
      * Stop motor A
      */
@@ -39,7 +38,7 @@ namespace DRV8871Motor {
     }
 
     /**
-     * Motor B (P14 & P15) fremad
+     * Motor B fremad
      */
     //% block="Motor B fremad med speed %speed"
     //% speed.min=0 speed.max=1023
@@ -49,7 +48,7 @@ namespace DRV8871Motor {
     }
 
     /**
-     * Motor B (P14 & P15) baglæns
+     * Motor B baglæns
      */
     //% block="Motor B baglæns med speed %speed"
     //% speed.min=0 speed.max=1023
@@ -95,7 +94,4 @@ namespace DRV8871Motor {
         motorABackward(speed)
         motorBBackward(speed)
     }
-
-
-    
 }
