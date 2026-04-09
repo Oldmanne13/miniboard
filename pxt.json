@@ -1,6 +1,6 @@
 {
   "name": "miniboard",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Motor driver til DRV8871",
   "license": "MIT",
   "dependencies": {
