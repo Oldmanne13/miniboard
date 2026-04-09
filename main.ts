@@ -1,4 +1,5 @@
 //% color=#0fbc11 icon="\uf2db" block="DRV8871 Motor"
+//% blockNamespace=DRV8871Motor
 namespace DRV8871Motor {
     /**
      * Aktivér motordriveren
